@@ -13,4 +13,11 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+    position : relative;
+}
+
+.screen-header__icons .reddot{
+    position: absolute;
+    left : 20px;
+    bottom: 20px;
 }
