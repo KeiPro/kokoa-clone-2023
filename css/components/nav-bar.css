@@ -19,17 +19,9 @@
 }
 
 .nav__notification{
-    background-color: tomato;
-    width: 26px;
-    height: 26px;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     left: 15px;
     bottom:15px;
-    color: white;
 }
 
 .nav__reddot{
