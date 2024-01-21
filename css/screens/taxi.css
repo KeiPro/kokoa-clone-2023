@@ -1,0 +1,75 @@
+.maple-taxi{
+    position: absolute;
+
+    transform : scaleX(-1);
+
+    left: 200px;
+    bottom: 400px;
+    
+    width: 120px;
+    height: auto;
+}
+
+@keyframes go-henesys{
+    0%{
+        transform: translate(0, 0) scaleX(-1) rotateZ(0deg);
+    }
+    30%{
+        transform: translate(0, 0) scaleX(-1) rotateZ(-60deg);
+    }
+    100%{
+        transform: translate(10px, 160px) scaleX(-1) rotateZ(-80deg);
+    }
+}
+
+@keyframes go-ellinia{
+    0%{
+        transform: translate(0, -10px) scaleX(-1) rotateZ(0deg);
+    }
+    30%{
+        transform: translate(0, -10px) scaleX(-1) rotateZ(10deg);
+    }
+    100%{
+        transform: translate(140px, -10px) scaleX(-1) rotateZ(10deg);
+    }
+}
+
+@keyframes go-hyperion{
+    0%{
+        transform: translate(5px, 0) rotateZ(0deg);
+    }
+    30%{
+        transform: translate(5px, 0) rotateZ(40deg);
+    }
+    100%{
+        transform: translate(-55px, -120px) rotateZ(60deg);
+    }
+}
+
+@keyframes go-kerning-city{
+    0%{
+        transform: translate(0, -10px) rotateZ(0deg);
+    }
+    30%{
+        transform: translate(0, -10px) rotateZ(10deg);
+    }
+    100%{
+        transform: translate(-150px, -40px) scaleX(1) rotateZ(10deg);
+    }
+}
+
+.go-to-henesys{
+    animation: go-henesys 3s cubic-bezier(.5,-0.27,.24,1.11) forwards;
+}
+
+.go-to-ellinia{
+    animation: go-ellinia 3s cubic-bezier(.5,-0.27,.24,1.11) forwards;
+}
+
+.go-to-hyperion{
+    animation: go-hyperion 3s cubic-bezier(.5,-0.27,.24,1.11) forwards;
+}
+
+.go-to-kerning-city{
+    animation: go-kerning-city 3s cubic-bezier(.5,-0.27,.24,1.11) forwards;
+}

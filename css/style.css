@@ -20,12 +20,34 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chats.css";
 @import "screens/chat.css";
 
+@import "screens/taxi.css";
+
+@font-face {
+    font-family: 'maplestory-bold';
+    src: url('/font/maplestory-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'maplestory-light';
+    src: url('/font/maplestory-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'maplestory-light', 'Open Sans', sans-serif;
     color:#2F363E;
-    height: 1000vh;
+    height: 80vh;
+    /* background-color: rgb(240, 240, 240); */
+}
+
+.font-strong {
+    font-family: 'maplestory-bold', sans-serif;
 }
 
 .main-screen {

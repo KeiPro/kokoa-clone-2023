@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Welcom to Kokoa Clone</title>
+    <title>Welcom to Kokoa Maple</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,21 +23,30 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcom to Maple Talk</h1>
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
+        If you have a maple Account, log in with your email or phone number.
       </p>
     </header>
 
-    <form action="friends.html" method="get" id="login-form">
+    <form action="henesys.html" method="get" id="login-form">
       <input name="username" type="text" placeholder="Email or phone number" />
       <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
 
-    <div id="no-mobile">
-      <span>Your screen is too too too too big!</span>
+    <div id="no-mobile-container">
+      <span class="no-mobile-guide"
+        >두 원의 중앙을 맞춰야 원활한 진행이 가능합니다.<br /><br />브라우저의
+        사이즈를 조절하여 두 원의 중앙을 맞춰주세요.</span
+      >
+      <div class="fixed-circle">
+        <div class="center-dot"></div>
+      </div>
+      <div class="moving-circle">
+        <div class="center-dot"></div>
+      </div>
     </div>
 
     <script

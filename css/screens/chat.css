@@ -1,6 +1,6 @@
 #chat-screen{
     background-color: #ABC1D1;
-    height: 500vh;
+    height: 150vh;
 }
 
 #chat-screen .alt-header{
@@ -71,6 +71,16 @@
     margin-right: 8px;
 }
 
+.message-row .message-heinz-image{
+    width: 60px;
+    height: 90px;
+}
+
+.message-row .message-arwen-image{
+    width: 40px;
+    height: 50px;
+}
+
 .message__author{
     margin-bottom: 8px;
     display: block;
@@ -118,6 +128,11 @@
     border-top-left-radius: 10px;
     margin-right: 0px;
     margin-left : 6px;
+}
+
+.message__bubble .shane-forest-image{
+    width: 250px;
+    height: 200px;
 }
 
 .message-row--own .message__info{

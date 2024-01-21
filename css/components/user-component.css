@@ -1,5 +1,27 @@
 .user-component{
     justify-content: space-between;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.user-component:hover{
+    background-color: rgb(188, 247, 244);
+    border-radius: 10px;
+}
+
+.user-component:hover .user-component__avatar{
+    transform: scale(1.1);
+}
+
+.user-component-kerning-city{
+    transition: all 0.3s ease-in-out;
+}
+
+.user-component-kerning-city:hover{
+    background-color: #720258c2;
+    border-radius: 10px;
 }
 
 .user-component,
@@ -13,6 +35,44 @@
     height: 70px;
     border-radius: 30px;
     margin-right: 20px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.npc-avatar-margin-right{
+    margin-right: 15px;
+}
+
+.npc-avatar-sm{
+    width: 50px;
+    height: auto;
+}
+
+.npc-avatar{
+    width: auto;
+    height: 70px;
+}
+
+.npc-avatar-lg{
+    width: 80px;
+    height: 100px;
+
+    position: relative;
+    right: 20px;
+}
+
+.component__avatar-npc{
+    width: 50px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.user-component__text-heinz{
+    position: relative;
+    right: 30px;
 }
 
 .user-component__title{
@@ -28,7 +88,7 @@
 
 .user-component__avatar--xl{
     width: 80px;
-    height: 80px;
+    height: 90px;
 }
 
 .user-component__avatar--sm{

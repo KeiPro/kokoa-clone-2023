@@ -1,3 +1,13 @@
+#hyperion-body{
+    background-color: #F0BA74;
+
+    color: #246685;
+}
+
+#hyperion-body i{
+    cursor: pointer;
+}
+
 .recommended-friends{
     border-top: var(--main-border);
     border-bottom: var(--main-border);
@@ -7,15 +17,37 @@
 
 .recommnded-friends__title{
     font-size: 14px;
-    color: var(--font-grey-color);
+    margin-bottom: 30px;
+}
+
+.recommeded-friends__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommeded-friends__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommeded-friends__item img{
+    width: 55px;
+    height: 70px;
+    cursor: pointer;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.recommeded-friends__item img:hover{
+    transform: scale(1.2);
 }
 
 .recommended-friends span{
-    font-size: 18px;
-    color: var(--font-grey-color);
+    font-size: 14px;
     display: block;
     text-align: center;
-    margin: 100px 0px;
+    margin: 10px 0px;
 }
 
 .open-chat__header{
@@ -26,10 +58,6 @@
 
 .open-chat__title{
     opacity: 0.8;
-}
-
-.open-chat__header span{
-    color: var(--font-grey-color);
 }
 
 .open-post{

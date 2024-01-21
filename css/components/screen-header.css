@@ -34,3 +34,15 @@
 .screen-header__icons .fa-gear:hover{
     animation: rotateGear 1s linear infinite;
 }
+
+.screen-header__icons .fa-music:hover{
+    animation: music 1s linear infinite;
+}
+
+.screen-header__icons i:hover{
+    transform: scale(1.3);
+}
+
+.screen-header__icons i{
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 .nav{
-    background-color: #F9F9FA;
+    background-color: #d0e2d7;
     padding: 20px 50px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     position: fixed;
@@ -8,14 +8,35 @@
     box-sizing: border-box;
 }
 
+.nav__list img{
+    width: 40px;
+    height: 35px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.nav__list img:hover{
+    transform : translateY(-10px) scale(1.2);
+}
+
 .nav__list{
     display: flex;
     justify-content: space-between;
 }
 
+.nav__list
+
 .nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     color:#2F363E;
     position: relative;
+}
+
+.nav__link img{
+    margin-bottom: 5px;
 }
 
 @keyframes notificationAnimation{
@@ -64,9 +85,19 @@
     animation-delay: 0.3s;
 }
 
-
 .nav__reddot{
     position: absolute;
     left: 30px;
     bottom: 25px;
+
+    z-index: 10;
+}
+
+.nav i{
+    transition:all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.nav i:hover{
+    transform : scale(1.2);
 }

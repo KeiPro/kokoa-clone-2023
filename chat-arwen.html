@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>요정 아르웬과 대화하기</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="ellinia.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">요정 아르웬</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img
+          class="message-arwen-image"
+          src="https://i.namu.wiki/i/g_jIRwLzB0f3u4xkfzrswLhpTsorWKwo6fXEqQxudlcH62e6TXB4ZpZwhwZD4XWnUSMaIv-We3Er3WwBuVY6Jw.png"
+        />
+        <div class="message-row__content">
+          <span class="message__author">요정 아르웬</span>
+          <div class="message__info">
+            <span class="message__bubble">잃어버린 구두좀 찾아줘...</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">어디서 잃어버렸어?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          class="message-arwen-image"
+          src="https://i.namu.wiki/i/g_jIRwLzB0f3u4xkfzrswLhpTsorWKwo6fXEqQxudlcH62e6TXB4ZpZwhwZD4XWnUSMaIv-We3Er3WwBuVY6Jw.png"
+        />
+        <div class="message-row__content">
+          <span class="message__author">요정 아르웬</span>
+          <div class="message__info">
+            <span class="message__bubble">파이어보어를 잡으면 나와</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          class="message-arwen-image"
+          src="https://i.namu.wiki/i/g_jIRwLzB0f3u4xkfzrswLhpTsorWKwo6fXEqQxudlcH62e6TXB4ZpZwhwZD4XWnUSMaIv-We3Er3WwBuVY6Jw.png"
+        />
+        <div class="message-row__content">
+          <span class="message__author">요정 아르웬</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              <img
+                src="https://i.namu.wiki/i/imedwwTN60c7BjzICQqTIbbcYWDqJZyKqFQWwUGaV3H9WlbIVJyypsFumHJQQDywnQCOZw2mYyq7V8C4mll7YA.gif"
+              />
+              이렇게 생겼어.
+            </span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">그거 잡아봤는데 안뜨던데?</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          class="message-arwen-image"
+          src="https://i.namu.wiki/i/g_jIRwLzB0f3u4xkfzrswLhpTsorWKwo6fXEqQxudlcH62e6TXB4ZpZwhwZD4XWnUSMaIv-We3Er3WwBuVY6Jw.png"
+        />
+        <div class="message-row__content">
+          <span class="message__author">요정 아르웬</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >최소 두 시간은 잡아야 뜰까말까해.</span
+            >
+            <span class="message__time">21:29</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat__timestamp">Gombang님이 나갔습니다.</div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-laugh-beam fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile-container">
+      <span class="no-mobile-guide"
+        >두 원의 중앙을 맞춰야 원활한 진행이 가능합니다.<br /><br />브라우저의
+        사이즈를 조절하여 두 원의 중앙을 맞춰주세요.</span
+      >
+      <div class="fixed-circle">
+        <div class="center-dot"></div>
+      </div>
+      <div class="moving-circle">
+        <div class="center-dot"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7973b135c7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

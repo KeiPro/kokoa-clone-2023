@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Chat w/ Keipro - Kokoa Clone</title>
+    <title>하인즈와 대화하기</title>
   </head>
   <body id="chat-screen">
     <div class="status-bar">
@@ -24,12 +24,12 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="chats.html">
+        <a href="ellinia.html">
           <i class="fa-solid fa-angle-left fa-2x"></i>
         </a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">와이떠블유</h1>
+        <h1 class="alt-header__title">하인즈</h1>
       </div>
       <div class="alt-header__column">
         <i class="fa-solid fa-magnifying-glass fa-lg"></i>
@@ -42,12 +42,13 @@
 
       <div class="message-row">
         <img
-          src="https://yt3.ggpht.com/1TTKhfoFYzMH9RbMkDFzc1oKvJGWKR661BGKv9qPNZ2U0mtij0m-3BEnMmw7YiaRkg2Db2mkw3A=s88-c-k-c0x00ffffff-no-rj"
+          class="message-heinz-image"
+          src="https://i.namu.wiki/i/LmADW9HeieBeRh9il3ECqAZnUpj647f1tCM4C4XizjFSWxT3i2VYwuOL452N8awZH1_cv8ixWdk8gca8IKr7Vg.png"
         />
         <div class="message-row__content">
-          <span class="message__author">Keipro</span>
+          <span class="message__author">하인즈</span>
           <div class="message__info">
-            <span class="message__bubble">Hi!</span>
+            <span class="message__bubble">마법사로 전직하고 싶은가?</span>
             <span class="message__time">21:27</span>
           </div>
         </div>
@@ -56,11 +57,36 @@
       <div class="message-row message-row--own">
         <div class="message-row__content">
           <div class="message__info">
-            <span class="message__bubble">What's up?</span>
+            <span class="message__bubble">아녀. 도적 하고 싶어요.</span>
             <span class="message__time">21:27</span>
           </div>
         </div>
       </div>
+
+      <div class="message-row">
+        <img
+          class="message-heinz-image"
+          src="https://i.namu.wiki/i/LmADW9HeieBeRh9il3ECqAZnUpj647f1tCM4C4XizjFSWxT3i2VYwuOL452N8awZH1_cv8ixWdk8gca8IKr7Vg.png"
+        />
+        <div class="message-row__content">
+          <span class="message__author">하인즈</span>
+          <div class="message__info">
+            <span class="message__bubble">그럼 나가</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">넹</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat__timestamp">Gombang님이 나갔습니다.</div>
     </main>
 
     <form class="reply">
@@ -76,8 +102,17 @@
       </div>
     </form>
 
-    <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+    <div id="no-mobile-container">
+      <span class="no-mobile-guide"
+        >두 원의 중앙을 맞춰야 원활한 진행이 가능합니다.<br /><br />브라우저의
+        사이즈를 조절하여 두 원의 중앙을 맞춰주세요.</span
+      >
+      <div class="fixed-circle">
+        <div class="center-dot"></div>
+      </div>
+      <div class="moving-circle">
+        <div class="center-dot"></div>
+      </div>
     </div>
 
     <script
